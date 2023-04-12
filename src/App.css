@@ -1,0 +1,28 @@
+:root{
+  --mainRed:#722a2a;
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+
+}
+body{
+  /*google font*/
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Permanent Marker',cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-red{
+  color: var(--mainRed);
+}
+.text-bright{
+  color: var(--lightBlue);
+}
