@@ -24,5 +24,6 @@ body{
   color: var(--mainRed);
 }
 .text-bright{
-  color: var(--lightRed);
+  color: var(--lightBlue);
+  font-family: "Oswald", sans-serif !important;
 }
