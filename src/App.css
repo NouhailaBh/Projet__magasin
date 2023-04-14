@@ -1,0 +1,118 @@
+:root{
+  --mainRed:#722a2a;
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+
+}
+body{
+  /*google font*/
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Permanent Marker',cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-red{
+  color: var(--mainRed);
+}
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.search{
+padding: 10px;
+font-size: 15px;
+}
+.appp{
+ 
+  text-align: center;
+  margin: 20px;
+  /*border:0.2rem solid var(--mainRed);
+  border: 3px solid #555;*/
+
+}
+.nav-itemm{
+ /* border:0.2rem solid var(--mainWhite);*/
+}
+
+.photo {
+  height: 200px;
+  width: 200px; 
+}
+.table1{
+  margin: auto;
+  border-collapse: collapse;
+}
+.crud{
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table td{
+  border: 3px solid  var(--mainRed);
+  width: 200px;
+  height: 10px;
+  text-align: center;
+
+}
+table th{
+  border: 3px solid  var(--mainRed);
+  width: 200px;
+  height: 10px;
+  text-align: center;
+
+}
+table th{
+  border: 3px solid  var(--mainRed);
+  width: 200px;
+  height: 10px;
+  text-align: center;
+
+}
+table td button{
+  padding: 5px 10px;
+  border-radius: 5%;
+}
+
+table td button.edit{
+  border: 1px solid green;
+  background-color: rgb(7,168,7);
+  color: white;
+}
+
+table td button.edit:hover{
+  background-color: rgb(3,71,3);
+}
+
+table td button.delete{
+  border: 1px solid red;
+  background-color: rgb(219, 19,19);
+  color: white;
+}
+table td button.delete:hover{
+  background-color: var(--mainRed);
+}
+.addForm{
+  margin-bottom: 30px;
+}
+.addForm input{
+  width: 230px;
+  height: 30px;
+}
+.addForm button{
+  width: 140px;
+  color: white;
+  background-color: rgb(7,168,7);
+}
+.addForm button:hover{
+  background-color: rgb(3,71,3);
+}
